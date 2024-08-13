@@ -17,10 +17,10 @@ const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }:
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image
-            src="/folded-map.svg"
-            alt="map"
-            width={28}
-            height={28}
+              src="/folded-map.svg"
+              alt="map"
+              width={28}
+              height={28}
             />
           </div>
 
@@ -34,12 +34,12 @@ const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }:
           <span className="flex -space-x-4 overflow-hidden">
             {PEOPLE_URL.map((url) => (
               <Image
-              className="inline-block h-10 w-10 rounded-full"
-              src={url}
-              key={url}
-              alt="person"
-              width={52}
-              height={52}
+                className="inline-block h-10 w-10 rounded-full"
+                src={url}
+                key={url}
+                alt="person"
+                width={52}
+                height={52}
               />
             ))}
           </span>
@@ -57,16 +57,16 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8
       overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <Campsite
-        backgroundImage="bg-bg-img-1"
-        title="Putuk Truno Camp"
-        subtitle="Prigen, Pasuruan"
-        peopleJoined="50+ Joined"
+          backgroundImage="bg-bg-img-1"
+          title="Putuk Truno Camp"
+          subtitle="Prigen, Pasuruan"
+          peopleJoined="50+ Joined"
         />
         <Campsite
-        backgroundImage="bg-bg-img-2"
-        title="Mountain View Camp"
-        subtitle="Somewhere in the Wilderness"
-        peopleJoined="50+ Joined"
+          backgroundImage="bg-bg-img-2"
+          title="Mountain View Camp"
+          subtitle="Somewhere in the Wilderness"
+          peopleJoined="50+ Joined"
         />
       </div>
 
@@ -77,16 +77,16 @@ const Camp = () => {
             <strong>Feeling Lost And Not Knowing The Way?</strong>
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-          Starting from the anxiety of the climbers when visiting a new climbing location, 
-          the possibility of getting lost is very large. 
-          That's why we are here for those of you who want to start an adventure
+            Starting from the anxiety of the climbers when visiting a new climbing location,
+            the possibility of getting lost is very large.
+            That's why we are here for those of you who want to start an adventure
           </p>
           <Image
-          src="/quote.svg"
-          alt="camp-2"
-          width={186}
-          height={219}
-          className="camp-quote"
+            src="/quote.svg"
+            alt="camp-2"
+            width={186}
+            height={219}
+            className="camp-quote"
           />
         </div>
       </div>

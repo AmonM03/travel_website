@@ -10,11 +10,11 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
-        src="/camp.svg"
-        alt="camp"
-        width={50}
-        height={50}
-        className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
+          src="/camp.svg"
+          alt="camp"
+          width={50}
+          height={50}
+          className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 lg:bold-88">
           Putuk Truno Camp Area
@@ -26,11 +26,11 @@ const Hero = () => {
           <div className="flex items-center gap-2">
             {Array(5).fill(1).map((_, index) => (
               <Image
-              src="/star.svg"
-              key={index}
-              alt="star"
-              width={24}
-              height={24}
+                src="/star.svg"
+                key={index}
+                alt="star"
+                width={24}
+                height={24}
               />
             ))}
           </div>
@@ -45,15 +45,15 @@ const Hero = () => {
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button
-          type="button"
-          title="Download App"
-          variant="btn_green"
+            type="button"
+            title="Download App"
+            variant="btn_green"
           />
           <Button
-          type="button"
-          title="How we work?"
-          icon="/play.svg"
-          variant="btn_white_text"
+            type="button"
+            title="How we work?"
+            icon="/play.svg"
+            variant="btn_white_text"
           />
         </div>
       </div>
@@ -68,10 +68,10 @@ const Hero = () => {
                 Location
               </p>
               <Image
-              src="/close.svg"
-              alt="close"
-              width={24}
-              height={24}
+                src="/close.svg"
+                alt="close"
+                width={24}
+                height={24}
               />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
