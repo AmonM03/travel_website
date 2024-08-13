@@ -13,7 +13,7 @@
 
 ## Introduction
 
- This is a travel app showcase website made using the widely known and applied techs like Next.js,Typescript as well as Tailwind CSS look of the website.
+ This is a travel app showcase website made using the widely known and applied techs like Next.js,Typescript as well as Tailwind CSS for the look of the website.
 
 
 ## Features:
